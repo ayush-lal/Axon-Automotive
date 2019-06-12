@@ -1,0 +1,71 @@
+/*GLOBAL STYLING*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, p {
+    color: #FFFFFF !important;
+}
+
+/*NAVBAR STYLING*/
+
+/*STYLING HERO*/
+.hero-bg {
+    background-image: url(/assets/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-bg h1 {
+    font-size: 2em
+}
+
+
+section {
+    background-color: #222222;
+
+}
+
+/*CONTACT FORM STYLING*/
+.footer-section {
+    background-color: #333333;
+}
+
+.footer-section p {
+    font-style: italic;
+}
+
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    /*padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;*/
+    border: 1px solid #DDDDDD;
+  }
+   
+  input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(255, 0, 21);
+    /*padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;*/
+    border: 1px solid rgb(255, 0, 21);
+  }
+
+  .form-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: ;
+  }
