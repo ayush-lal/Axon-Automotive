@@ -4,6 +4,10 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
 h1, p {
     color: #FFFFFF !important;
 }
@@ -36,11 +40,11 @@ section {
 }
 
 /*CONTACT FORM STYLING*/
-.footer-section {
-    background-color: #333333;
+.form-section {
+    background-color: #252525;
 }
 
-.footer-section p {
+.form-section p {
     font-style: italic;
 }
 
@@ -69,3 +73,23 @@ input[type=text], textarea {
 
     margin: ;
   }
+
+  /*FOOTER STYLING*/
+  .footer-link {
+      text-decoration: none !important;
+      padding: 10px;
+      font-size: 2em;
+      color: #666666;
+
+      transition: 0.5s;
+  }
+
+  .footer-link:hover {
+      color: #ffffff;
+  }
+
+.footer-social {
+    font-size: 1.25em;
+    letter-spacing: 0px;
+    color: #444444 !important;
+}
