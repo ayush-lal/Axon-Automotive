@@ -20,7 +20,7 @@
   <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="#">
             <img src="http://placehold.it/150x50?text=Logo" alt="">
@@ -47,10 +47,10 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <!--HERO-->
-  <section class="hero is-large hero-bg">
+  <section class="hero is-fullheight hero-bg">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -59,6 +59,10 @@
           <h2 class="subtitle">
             Large subtitle
           </h2>
+
+          <a class="button is-danger is-rounded">Contact us now
+              <i class="fas fa-arrow-down"></i>
+          </a>
         </div>
       </div>
     </section>
@@ -67,8 +71,9 @@
   <section class="section">
     <div class="container">
       <h1 class="title">
-        Hello World
+        ABOUT US
       </h1>
+      <br>
       <p class="subtitle">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           <br><br>
@@ -81,18 +86,18 @@
 
 
 
-  <!--Footer Section-->
+  <!--Form Section-->
   <section class="section form-section">
     <div class="container has-text-centered">
 
       <h1 class="title">
-        CONTACT US!
+        CONTACT US
       </h1>
 
       <p>
-        Leave your details below and we'll get back to you!
+        Leave your details & query below and we'll get back to you!
       </p>
-      
+    <form action="/php/mail.php" method="POST">
       <div class="field columns form-field">
         <div class="column is-half">
           <label class="label">Name</label>
@@ -131,8 +136,11 @@
           <a class="button is-primary">Submit</a>
       </div>
     </div>
+  </form>
   </section>
 
+
+<!--Footer Section-->
     <section class="section footer-section">
       <div class="columns container has-text-centered">
         <div class="column">
@@ -150,9 +158,23 @@
           <a class="footer-link" href="#">
             <i class="far fa-envelope"></i>
           </a>
+
+          <a class="footer-link" href="#">
+            <i class="fas fa-phone-square"></i>
+          </a>
         </div>
       </div>
     </section>
+
+<!--Disclaimer Section-->
+
+<section class="section-disclaimer">
+  <div class="has-text-centered">
+    <p>
+      test
+    </p>
+  </div>
+</section>
 
 <!--Starting JS Scripts-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
