@@ -14,7 +14,7 @@
 
     <!--Google Fonts-->
     <!--<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat&display=swap" rel="stylesheet">
 
     <!--Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -75,6 +75,35 @@
 
   <!--HERO-->
   <section class="hero is-fullheight hero-bg">
+
+
+
+      <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+        <div class="menunavcontain">
+            <span class="menunav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+        </div>
+
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.height = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.height = "0%";
+            }
+            </script>
+
+
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -98,7 +127,7 @@
         ABOUT US
       </h1>
       <br>
-      <p class="subtitle">
+      <p class="para-subtitle">
           Axon Automotive is a privately owned family business specialising in Batteries and Tyres. The business was started in 2014
           as a mobile battery service. In 2016, we realised the need for battery and tyre service in northern Gold
           Coast and Axon Automotive as a shop was established.
