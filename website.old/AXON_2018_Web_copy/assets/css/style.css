@@ -1,0 +1,785 @@
+﻿/* MEDIA QUERIES- RESPONSIVE DESIGN */
+
+@media screen and (max-width: 400px) {
+    body h2 {
+        text-align: center;
+    }
+
+    body p {
+        padding: 10px;
+    }
+
+    body h3 {
+        text-align: center;
+    }
+}
+/*END====================================== */
+
+textarea, input[type=text]{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+textarea:focus {
+    border-color:dodgerBlue;
+    box-shadow:0 0 10px 0 dodgerBlue;
+}
+
+  
+input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 10px 0 dodgerBlue;
+  }
+  
+  .inputWithIcon input[type=text]{
+    padding-left:40px;
+  }
+  
+  .inputWithIcon{
+    position:relative;
+  }
+  
+  .inputWithIcon i{
+    position:absolute;
+    left:0;
+    top:8px;
+    padding:9px 8px;
+    color:#aaa;
+    transition:.3s;
+  }
+  
+  .inputWithIcon input[type=text]:focus + i{
+    color:dodgerBlue;
+  }
+  
+  .inputWithIcon.inputIconBg i{
+    background-color:#aaa;
+    color:#fff;
+    padding:12px 4px;
+    border-radius:4px 0 0 4px;
+    font-size: 1.5em;
+  }
+  
+  .inputWithIcon.inputIconBg input[type=text]:focus + i{
+    color:#fff;
+    background-color:#d9534f;
+  }
+
+
+
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+    ========================================================  */
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+.form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*=======================================
+    FONT AWESOME CSS STYLING 
+==================================================*/
+.fa-envelope {
+    color: white;
+}
+
+.fa-clock {
+    color: white;
+    font-size: 2em;
+    position: inline-block;
+}
+
+.fa-car {
+    color: #e9242f;
+}
+
+.fa-wrench {
+    color: #E5EB3B;
+}
+/*=======================================
+    END-->FONT AWESOME CSS STYLING -->
+==================================================*/
+
+.footer-bottom {
+    overflow: auto;
+    height: 50px;
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+}
+
+.footer-bottom p {
+    color: #6D6E71;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+
+.formbutton {
+        display: block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #d9534f;
+        color: #FFFFFF;
+        margin: 0 auto;
+}
+
+.formbutton:hover {
+    background-color: #e9242f;
+}
+
+#contact-sec {
+    margin-top: -50px;
+}
+
+.pdfbutton {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.pdfbutton a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* Darker background on mouse-over */
+.pdfbutton:hover {
+    background-color: #e9242f;
+    color: #FFFFFF;
+}
+
+.batterylogo {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+}
+
+#welcometext {
+  width: 100%;
+}
+
+.tyrelogo {
+    width: 100%;
+}
+
+th {
+    text-align: right;
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+    font-size:16px;
+    background-image:url(../img/stardust.png);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+    line-height:50px;
+    font-weight:900;
+    font-size:40px;
+    padding:50px 20px 5px 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.row h1 {
+  text-align: center;
+}
+
+
+.pad-adjust {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+    color: #ffffff;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+h4 {
+   padding-top: 25px;
+line-height: 40px;
+padding-bottom: 0px;
+font-size: 22px;
+font-weight: 900;
+}
+
+p {
+    color: #fff;
+    font-weight:300;
+    line-height:30px;
+    padding-bottom:15px;
+}
+
+.space-free {
+    height:100px;
+}
+
+.g-pad-bottom {
+    padding-bottom:40px;
+}
+
+section {
+    padding-top:20px;
+    margin-top:50px;
+}
+
+.c-blue {
+  background-image: url(../img/battery.jpg);
+   color:#fff;
+   width: 100%;
+   height: 500px;
+   background-size: 100% 500px;
+   background-repeat: no-repeat;
+}
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+
+.form-control, input {
+    color: #FFF;
+}
+/*=======================================
+    HOME SECTION STYLES
+==================================================*/
+
+
+.head-btn-one {
+    background-color: ;
+     border: 0px solid #fff;
+
+}
+#home-sec {
+    /* background-color:rgba(0, 121, 138, 1); */
+    background-image: url("../img/axonwelcome2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#home {
+    padding-top:130px;
+    padding-bottom:200px;
+    color:#fff;
+}
+.head-main {
+    font-size:100px ;
+     font-weight:900;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0px;
+}
+.head-sub-main {
+    font-size:45px ;
+    font-weight:600;
+    padding:5px 20px 10px 20px;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 2px;
+}
+.head-last {
+    font-style: italic;
+    font-size:20px ;
+    font-weight:300;
+    padding:5px 20px 20px 20px;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+border-radius: 10px;
+}
+/* ===========================================================
+   NAVBAR CHANGES
+   ============================================================*/
+.navbar-brand {
+    font-family: 'Oregano', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    margin-top: 7px;
+    float: left;
+    width: 295px;
+    height: 65px;
+}
+
+.navbar {
+	font-size: 20px;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.navbar-inverse {
+	background: #292c2f;
+    border-bottom: #292c2f;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ffffff;
+	font-weight: bolder;
+	font-size: 25px;
+    font-weight:900;
+	letter-spacing: 2px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    font-family: "Courier New", Courier, monospace;
+    color: #FFFFFF;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+/*=======================================
+    PRICE SECTION STYLES
+==================================================*/
+
+.plan {
+    background: #D8D8D8;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+
+}
+
+
+
+.plan li {
+   padding: 25px 0px;
+color: #858585;
+font-size: 25px;
+}
+
+.plan li.plan-head {
+    background-color:#000!important;
+   padding: 15px 0px;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+background-color:rgba(31, 138, 99, 1);
+color: #fff;
+border: none;
+font-weight: 900;
+font-size: 45px;
+}
+
+
+/*=======================================
+    SERVICE SECTION STYLES
+==================================================*/
+#services-inner {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+#services-sec {
+    margin-top: -50px;
+}
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: rgba(0, 121, 138, 1);
+	box-shadow: none;
+	border: 0;
+    padding:20px;
+    margin-bottom:30px;
+    color:#fff;
+    font-size:16px;
+    padding-top: 45px;
+}
+.service-div > i {
+    color:#fff;
+}
+
+/*=======================================
+    STATS SECTION STYLES
+==================================================*/
+.stats-div {
+    text-align:center;
+    width: 100%;
+    min-height: 100px;
+    padding: 30px 20px 30px 20px;
+}
+
+.stats-div > h3 {
+    font-size:60px;
+    font-weight:900;
+}
+
+
+
+
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+
+/*=======================================
+    DOWNLOAD STYLING
+==================================================*/
+
+.downloadspecials {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    color: greenyellow;
+}
+
+/*=======================================
+    UNORDERED LIST STYLING
+==================================================*/
+
+.lists {
+    font-size: 17px;
+    color: yellowgreen;
+}
+
+/*=======================================
+    LOCATION STYLING
+==================================================*/
+
+.overlay {
+background:transparent;
+position:relative;
+width:100%; /* your iframe width */
+height:500px; /* your iframe height */
+top:500px; /* your iframe height */
+margin-top:-500px; /* your iframe height */
+}
+
+
+/*=======================================
+    ABOUT-US SECTION STYLING
+==================================================*/
+.axonbanner {
+    width: 100%;
+    height: 100%;
+}
+
+/*=======================================
+   AXON PHOTOS
+==================================================*/
+#axonshop {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid #fff;
+}
+
+.Batterypics {
+    float: right;
+    height: 150px;
+    width: 200px;
+    padding: 0px;
+}
+
+/*=======================================
+    FOOTER STYLING
+==================================================*/
+
+.border-square {
+    color: #222222; 
+    border-radius:25%; 
+    padding: 5px;
+    background-color: #fff;
+    font-size: 25px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.footer-logo {
+    width: 350px;
+    height: 100px;
+    margin-bottom: -50px;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+#myFooter {
+    background-color: #222222;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #000000;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+    /* margin-left: -95px; */
+    margin-top: -20px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #00aced;
+}
+
+#myFooter .phone:hover {
+    color: #E5EB3B;
+}
+
+#myFooter .mail:hover {
+    color: #00aced;
+}
+
+.fa-envelope:hover {
+    color: #e9242f;
+}
+
+.fa-map-marker:hover {
+    background-color: #d84b6b;
+}
+
+.fa-clock {
+    font-size: 20px;
+}
+
+#myFooter .btn {
+    color: white;
+    
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: -340px;
+    margin-top: -10px;
+    line-height: 25px;
+}
+
+#myFooter .btn:hover {
+    background-color: #e9242f
+}
+
+
+.footer-right h5 {
+    letter-spacing: 3px;
+}
+
+.footer-right2 {
+    margin-left: -70px;
+}
+
+.footer-right3 {
+    margin-left: -85px;
+    margin-right: -50px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #myFooter .social-networks {
+        display: block;
+        margin: auto;
+        padding: 0px;
+        margin-top: -40px;
+        margin-left: 150px;
+    }
+
+    .footer-logo {
+        margin-top: 20px;
+        padding: 5px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    #myFooter .social-networks {
+        display: block;
+        margin: auto;
+        padding: 0px;
+        margin-top: -40px;
+        margin-left: 275px;
+    }
+
+    .footer-logo {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .btn {
+        
+    }
+
+    .footer-logo {
+        padding: 5px;
+        margin: auto;
+    }
+
+    #myFooter .social-networks {
+        display: block;
+        margin: auto;
+        padding: 0px;
+        margin-top: -40px;
+        margin-left: 340px;
+    }
+
+    .footer-right2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer-right3 {
+        margin: auto;
+        text-align: center;
+    }
+}

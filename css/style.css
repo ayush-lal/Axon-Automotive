@@ -1,0 +1,107 @@
+/*GLOBAL STYLING*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h1, p {
+    color: #FFFFFF !important;
+}
+
+/*NAVBAR STYLING*/
+
+/*STYLING HERO*/
+.hero-bg {
+    background-image: url(/assets/img/axonwelcome2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.fa-arrow-down {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.hero-bg h1 {
+    font-size: 2em
+}
+
+
+section {
+    background-color: #222222;
+
+}
+
+/*CONTACT FORM STYLING*/
+.form-section {
+    background-color: #252525;
+}
+
+.form-section p {
+    font-style: italic;
+}
+
+input[type=text], textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    /*padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;*/
+    border: 1px solid #DDDDDD;
+  }
+   
+  input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px rgba(255, 0, 21);
+    /*padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;*/
+    border: 1px solid rgb(255, 0, 21);
+  }
+
+  .form-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: ;
+  }
+
+/*FOOTER STYLING*/
+  .footer-link {
+      text-decoration: none !important;
+      padding: 2px;
+      font-size: 2em;
+      color: #666666;
+
+      transition: 0.5s;
+  }
+
+  .footer-link:hover {
+      color: #ffffff;
+  }
+
+.footer-social {
+    font-size: 1.25em;
+    letter-spacing: 0px;
+    color: #444444 !important;
+}
+
+/*DISCLAIMER SECTION*/
+.section-disclaimer {
+    background-color: #181818 !important;
+    height: 30px;
+    margin: 0;
+}

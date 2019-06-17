@@ -8,7 +8,9 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
     <!--Linking Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+    <link href="/css/hamburgers.css" rel="stylesheet">
 
     <!--Google Fonts-->
     <!--<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet"> -->
@@ -17,7 +19,29 @@
     <!--Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
+
   <body>
+
+
+
+
+
+    <!--  <button class="hamburger hamburger--collapse" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <script>
+            // Look for .hamburger
+            var hamburger = document.querySelector(".hamburger");
+            // On click
+            hamburger.addEventListener("click", function() {
+              // Toggle class "is-active"
+              hamburger.classList.toggle("is-active");
+              // Do something else, like open/close menu
+            });
+          </script> -->
 
 <!-- Navigation -->
 <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
@@ -75,11 +99,31 @@
       </h1>
       <br>
       <p class="subtitle">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          <br><br>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          <br><br>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          Axon Automotive is a privately owned family business specialising in Batteries and Tyres. The business was started in 2014
+          as a mobile battery service. In 2016, we realised the need for battery and tyre service in northern Gold
+          Coast and Axon Automotive as a shop was established.
+          <br>
+          <br>
+          <img class="axonbanner" src="assets\img\axonbanner.png" />
+          <br>
+          <br> Since then we have continued to expand the business by adding wheel alignment, minor servicing, brakes,
+          suspension, truck tyre service, trailer and car rental.
+          <br>
+          <br> We strive to stock quality brands in all our products, offering value and satisfaction to our customers.
+          Our range of stock continues to grow and if we don't have something we will try to source it.
+          <br>
+          <br> We have a vast selection of new and second hand tyres to suit all budgets, vehicle makes and models
+          - from Sedans to SUVs and 4x4s. We stock Federal, Maxtrek, Silverstone, Rydanz, Austone, Minerva and
+          many more brands to choose from.
+          <br>
+          <br> We are the retailers of highest quality batteries for cars, trucks, tractors, boats, caravans, jet skis,
+          golf buggies, bikes, mowers and solar systems. We have in stock Axon, Austral, Enirgi, Ritar and Century
+          brands.
+          <br>
+          <br> Axon Green, our refurbished batteries are serviced, desulphated, charged,discharged,recharged and then
+          tested/retested. All these are done using the latest pulse technology. Each battery comes with a 3-month
+          warranty.
+          <br>
       </p>
     </div>
   </section>
@@ -145,23 +189,24 @@
       <div class="columns container has-text-centered">
         <div class="column">
           <a class="navbar-brand" href="#">
-            <img src="http://placehold.it/150x50?text=Logo" alt="">
+            <img src="/assets/img/logo8.png" alt="">
           </a>
         </div>
 
         <div class="column">
           <h1 class="footer-social">GET IN TOUCH</h1>
-          <a class="footer-link" href="#">
+          <a class="footer-link" href="https://www.facebook.com/AxonAuto">
             <i class="fab fa-facebook-square"></i>
           </a>
 
-          <a class="footer-link" href="#">
+          <a class="footer-link" href="mailto:sales@axonautomotive.com.au">
             <i class="far fa-envelope"></i>
           </a>
 
-          <a class="footer-link" href="#">
+          <a class="footer-link is-tooltip-top" data-tooltip="test" href="#">
             <i class="fas fa-phone-square"></i>
           </a>
+
         </div>
       </div>
     </section>
