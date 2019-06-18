@@ -22,62 +22,8 @@
 
   <body>
 
-
-
-
-
-    <!--  <button class="hamburger hamburger--collapse" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-
-        <script>
-            // Look for .hamburger
-            var hamburger = document.querySelector(".hamburger");
-            // On click
-            hamburger.addEventListener("click", function() {
-              // Toggle class "is-active"
-              hamburger.classList.toggle("is-active");
-              // Do something else, like open/close menu
-            });
-          </script> -->
-
-<!-- Navigation -->
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-            <img src="http://placehold.it/150x50?text=Logo" alt="">
-          </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
   <!--HERO-->
   <section class="hero is-fullheight hero-bg">
-
-
-
       <div id="myNav" class="overlay">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
@@ -93,15 +39,7 @@
         </div>
 
 
-        <script>
-            function openNav() {
-              document.getElementById("myNav").style.height = "100%";
-            }
-            
-            function closeNav() {
-              document.getElementById("myNav").style.height = "0%";
-            }
-            </script>
+
 
 
       <div class="hero-body">
@@ -113,14 +51,14 @@
             Large subtitle
           </h2>
 
-          <a class="button is-danger is-rounded">Contact us now
+          <a href="#bottom" class="scrollLink button is-danger is-rounded">Contact us now
               <i class="fas fa-arrow-down"></i>
           </a>
         </div>
       </div>
     </section>
 
-
+<!--About Us Section-->
   <section class="section">
     <div class="container">
       <h1 class="title">
@@ -152,7 +90,28 @@
           <br> Axon Green, our refurbished batteries are serviced, desulphated, charged,discharged,recharged and then
           tested/retested. All these are done using the latest pulse technology. Each battery comes with a 3-month
           warranty.
-          <br>
+      </p>
+    </div>
+  </section>
+
+  <!--Services Section-->
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        OUR BATTERY SERVICES
+      </h1>
+      <br>
+      <p class="para-subtitle">
+        We are the retailers of highest quality batteries for Cars, Trucks, Tractors, Boats, Caravans, Jet Skis, Golf Buggies, Bikes,
+        Mowers and solar systems. Our new Axon batteries come with 18 months back to base warranty.
+        <br>
+        <br>
+        We also recondition batteries! Our refurbished batteries are serviced, desulphated, charged/discharged/recharged and then
+        tested/retested. All these are done using the latest pulse technology. Each battery comes with a 3-month
+        warranty.
+        <br>
+        <br>        
+        <img class="batterylogo" src="/assets/img/battery/allbatteries.png">
       </p>
     </div>
   </section>
@@ -160,7 +119,7 @@
 
 
   <!--Contact Us Form Section-->
-  <section id="contact-us" class="section form-section">
+  <section id="bottom" class="section form-section">
     <div class="container has-text-centered">
 
       <h1 class="title">
@@ -250,10 +209,31 @@
   </div>
 </section>
 
-<!--Starting JS Scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--Loading JS Scripts-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
+<!--"Smooth Scroll" to element JQuery-->
+<script>
+  $(document).ready(function(){
+      $( "a.scrollLink" ).click(function( event ) {
+          event.preventDefault();
+          $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+      });
+  });
+</script>
+
+<!--Menu bar animations-->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  } 
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+ </script>
+
 </body>
 </html>
