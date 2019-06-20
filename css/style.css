@@ -243,8 +243,8 @@ Contact form testing
         color: #999999;
       }
     
-      #ajax-contact input:
-        background-color: yellow;
+      #ajax-contact input {
+        background-color: ;
       }
       
       input {
