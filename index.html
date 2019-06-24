@@ -54,7 +54,7 @@
             Large subtitle
           </h2>
 
-          <a href="#bottom" class="scrollLink button is-danger is-rounded">Contact us now
+          <a href="#test" class="scrollLink button is-danger is-rounded">Contact us now
               <i class="fas fa-arrow-down"></i>
           </a>
         </div>
@@ -122,7 +122,7 @@
 
 
   <!--Contact Us Form Section-->
-  <section id="registration" class="section form-section">
+  <section id="test" class="section form-section">
     <div class="container has-text-centered">
 
       <h1 class="title">
@@ -224,12 +224,17 @@
 
 <!--"Smooth Scroll" to element JQuery-->
 <script>
-  $(document).ready(function(){
-      $( "a.scrollLink" ).click(function( event ) {
-          event.preventDefault();
-          $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
-      });
-  });
+$('a[href*="#"]').on('click', function(e) {
+  e.preventDefault()
+
+  $('html, body').animate(
+    {
+      scrollTop: $($(this).attr('href')).offset().top,
+    },
+    500,
+    'linear'
+  )
+})
 </script>
 
 <!--Menu bar animations-->
