@@ -48,6 +48,12 @@ section {
 
 }
 
+/* BODY STYLING - BATTERY SERVICES
+######################################################*/
+.batteryserv-sec {
+    margin-top: -50px !important;
+}
+
 /*CONTACT FORM STYLING*/
 .form-section {
     background-color: #252525;
@@ -163,6 +169,7 @@ input[type=text], textarea {
   
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
+    text-decoration: none;
   }
   
   .overlay .closebtn {
