@@ -16,6 +16,10 @@ h1, p {
     font-family: 'Montserrat', sans-serif;
 }
 
+::selection {
+  background: #fccece;
+}
+
 /*NAVBAR STYLING*/
 
 /*STYLING HERO*/
@@ -235,7 +239,10 @@ input[type=text], textarea {
 
 /* 
 Contact form testing
-*/
+########################################################*/
+.form-section {
+  margin-bottom: -75px;
+}
 
     /* new contact form styling */
 
@@ -303,7 +310,8 @@ Contact form testing
       
       .success {
         padding: 1em;
-        margin-bottom: 0.75rem;
+        /*Margin was 0.75rem*/
+        margin-bottom: 4rem;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
         color: #468847;
         background-color: #dff0d8;
@@ -315,7 +323,7 @@ Contact form testing
       
       .error {
         padding: 1em;
-        margin-bottom: 0.75rem;
+        margin-bottom: 4rem;
         text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
         color: #b94a48;
         background-color: #f2dede;
