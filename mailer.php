@@ -22,7 +22,7 @@
 
         // Set the recipient email address.
         // Update this to your desired email address.
-        $recipient = "hello@ayushlal.com.au";
+        $recipient = "ayushlal12@gmail.com,hello@ayushlal.com.au";
 
         // Set the email subject.
         $subject = "Axon Automotive Enquiry";
