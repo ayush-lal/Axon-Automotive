@@ -128,6 +128,10 @@ section {
 }
 
 /*FOOTER STYLING*/
+.footer-section {
+  background-color: #121212;
+}
+
   .footer-link {
       text-decoration: none !important;
       padding: 2px;
@@ -149,9 +153,13 @@ section {
 
 /*DISCLAIMER SECTION*/
 .section-disclaimer {
-    background-color: #181818 !important;
-    height: 30px;
-    margin: 0;
+    background-color: #010101 !important;
+    height: 35px;
+}
+
+.disclaimer-text {
+    margin: auto;
+    padding: 4px;
 }
 
 
